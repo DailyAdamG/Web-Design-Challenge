@@ -1,14 +1,23 @@
-.navbar-brand{
+/* change navbar-brand color */
+.navbar a.navbar-brand {
+  color: white;
   background-color: teal;
-  font-weight: bold;
 }
 
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: teal;
+}
+
+.navbarSupportedContent{
+  float: right;
+}
 
 body {
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 150%;
     color: #333;
     background: lightgrey;
@@ -35,10 +44,13 @@ body {
   .container {
     margin-top: 20px;
     background: white;
+    margin-bottom: 20px;
   }
   
   #main-graph {
     float: left;
+    width: 60%;
+    height: 60%;
   }
 
 .visualizations{
@@ -47,5 +59,5 @@ body {
 }
 
 .row{
-text-align: center;
+text-align: left;
 }

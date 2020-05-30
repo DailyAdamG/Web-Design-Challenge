@@ -3,24 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Comparison Page</title>
+  <title>Landing Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="LandingPage.css">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="LandingPage.html">Latitude Summary</a>
+    <a class="navbar-brand" href="index.html">Latitude Summary</style></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="Comp.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Cities.html">Data</a>
-        </li>
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Plots
@@ -32,6 +26,13 @@
             <a class="dropdown-item" href="WindVisual.html">Latitude vs. Wind Speed</a>
           </div>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Comp.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Cities.html">Data</a>
+        </li>
+
       </ul> 
     </div>
   </nav>
@@ -40,12 +41,19 @@
 <body>
     <div class = "container">
       <h1>Comparison: Latitude vs. X</h1>
+      <p style="font-size: medium;"> Click any plot to get an in-depth analysis.</p>
         <div class ="row">
-          <div row = "col-12 col-md-6">
-            <a href="TempVisual.html"> <img class="visualizations" src=https://github.com/DailyAdamG/python-api-challenge/blob/master/WeatherPy/output_data/Lat%20vs.%20Temp.png?raw=true></a>
-            <a href="HumidityVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/python-api-challenge/blob/master/WeatherPy/output_data/Lat%20vs.%20Humidity.png?raw=true></a>
-            <a href="CloudVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/python-api-challenge/blob/master/WeatherPy/output_data/Lat%20vs.%20Cloudiness.png?raw=true></a>
-            <a href="WindVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/python-api-challenge/blob/master/WeatherPy/output_data/Lat%20vs.%20Wind%20Speed.png?raw=true></a>
+          <div class = "col-md-6 col-sm-12">
+            <a href="TempVisual.html"> <img class="visualizations" src=https://github.com/DailyAdamG/Web-Design-Challenge/blob/master/assets/images/Fig1.png?raw=true></a>
+          </div>
+          <div class = "col-md-6 col-sm-12">
+            <a href="HumidityVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/Web-Design-Challenge/blob/master/assets/images/Fig2.png?raw=true></a>
+          </div>
+          <div class = "col-md-6 col-sm-12">
+            <a href="CloudVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/Web-Design-Challenge/blob/master/assets/images/Fig3.png?raw=true></a>
+          </div>
+          <div class = "col-md-6 col-sm-12">
+            <a href="WindVisual.html"><img class="visualizations" src=https://github.com/DailyAdamG/Web-Design-Challenge/blob/master/assets/images/Fig4.png?raw=true></a>
           </div>
         </div>
     </div>
